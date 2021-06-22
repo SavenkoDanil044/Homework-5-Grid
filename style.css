@@ -12,6 +12,8 @@
 body {
     margin: 0;
     box-sizing: border-box;
+    
+    scroll-behavior: smooth;
 }
 
 .page {
@@ -19,8 +21,6 @@ body {
     overflow: hidden;
 
     display: grid;
-
-    min-height: 100vh;
 }
 
 .header,
